@@ -1,11 +1,7 @@
-import { Hero } from "../components/home/hero";
-import { Features } from "../components/home/features";
-
-export default function HomePage() {
+export default function DashboardPage() {
   return (
     <main>
-      <Hero />
-      <Features />
+      <h1>Dashboard Working</h1>
     </main>
   );
 }
